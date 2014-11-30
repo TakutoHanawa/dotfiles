@@ -144,5 +144,10 @@ endif
     nnoremap <silent> ,ur :<C-u>Unite -buffer-name=register register<CR>
     nnoremap <silent> ,uu :<C-u>Unite file_mru buffer<CR>
 
+    "vimfilter
+    NeoBundle 'Shougo/vimfiler'
+    let g:vimfiler_as_default_explorer = 1
+    let g:vimfiler_safe_mode_by_default = 0
+
     "ファイル形式別プラグインのロードを有効化
     filetype plugin indent on

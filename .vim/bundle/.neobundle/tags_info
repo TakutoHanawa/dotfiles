@@ -2,4 +2,5 @@ lightline.vim
 neobundle.vim
 neomru.vim
 unite.vim
+vimfiler
 vimproc
