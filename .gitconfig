@@ -1,0 +1,7 @@
+[user]
+	name = Takuto Hanawa
+	email = takutohanawa@gmail.com
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
