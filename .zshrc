@@ -79,5 +79,5 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sb
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#zsh起動時にtmux同時起動
+#自動起動
 [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
