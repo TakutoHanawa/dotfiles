@@ -1,0 +1,9 @@
+alias ll='ls -l'
+alias rm='rm -i'
+alias mv='mv -i'
+alias ls='ls -a'
+alias ll='ls -l'
+export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:$PATH
+alias joejack='ssh -i .ssh/PublicAccess.pem studiodog@joejack.co'
+alias wireshark='sudo /usr/local/Cellar/wireshark/1.12.2/bin/wireshark-qt'
