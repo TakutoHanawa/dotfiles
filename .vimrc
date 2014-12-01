@@ -1,7 +1,6 @@
 "Appearance------
 syntax enable "ハイライトを有効にしています
 set hls is
-colorscheme desert
 
 "Search and Replace------
 set hlsearch "検索結果をハイライト
