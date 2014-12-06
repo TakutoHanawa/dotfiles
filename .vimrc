@@ -49,6 +49,9 @@ if has('vim_starting')
     NeoBundleFetch 'Shougo/neobundle.vim'
     call neobundle#end()
 endif
+    
+    "勝手にカッコ閉じを入力してくれる
+    NeoBundle 'Townk/vim-autoclose'
 
     NeoBundle 'Shougo/vimproc', {
       \ 'build' : {

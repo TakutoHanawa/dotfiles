@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
+#
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -52,6 +52,8 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+source $HOME/.zshenv
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
