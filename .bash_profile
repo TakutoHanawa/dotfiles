@@ -1,5 +1,10 @@
-#loading .bashrc
+
+
+
+
+if [ -f ~/.bashrc ]; then
 source ~/.bashrc
+fi
 
 #docker
 export DOCKER_HOST=tcp://192.168.59.103:2375

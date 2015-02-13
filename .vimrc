@@ -17,7 +17,6 @@ set fileencoding=utf-8
 
 set ruler
 set list
-set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<,eol:<
 set nowrap
 set showmatch
 set whichwrap=h,l

@@ -81,5 +81,3 @@ source $HOME/.zshenv
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#自動起動
-[[ -z "$TMUX" && ! -z "$PS1" ]] && tmux
